@@ -24,7 +24,7 @@
 
   var sortRepos = function(repos) {
     return _.sortBy(repos, function(data) {
-      return new Date(data.updated_at).getTime();
+      return new Date(data.pushed_at).getTime();
     }).reverse();
   };
 
@@ -35,7 +35,7 @@
       description: data.description,
       name: data.name,
       stars: data.stargazers_count,
-      updated: compileDate(new Date(data.updated_at).getTime())
+      updated: compileDate(new Date(data.pushed_at).getTime())
     }));
   };
 
