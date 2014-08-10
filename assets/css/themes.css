@@ -1,0 +1,160 @@
+.theme_1
+{
+    background-color:#f3e8d5;
+}
+
+.theme_1 .symbol
+{
+    background-color:#e7d1ab;
+}
+
+.theme_1 .icon
+{
+    color:#f3e8d5;
+}
+
+.theme_1 .icon:before
+{
+    content: "\e6b5";
+}
+
+.theme_2
+{
+    background-color:#f6e2c7;
+}
+
+.theme_2 .symbol
+{
+    background-color:#edc58f;
+}
+
+.theme_2 .icon
+{
+    color:#f6e2c7;
+}
+
+.theme_2 .icon:before
+{
+    content: "\e66e";
+}
+
+.theme_3
+{
+    background-color:#ffcbb3;
+}
+
+.theme_3 .symbol
+{
+    background-color:#ff9767;
+}
+
+.theme_3 .icon
+{
+    color:#ffcbb3;
+}
+
+.theme_3 .icon:before
+{
+    content: "\e68d";
+}
+
+.theme_4
+{
+    background-color:#cceae5;
+}
+
+.theme_4 .symbol
+{
+    background-color:#99d5cb;
+}
+
+.theme_4 .icon
+{
+    color:#cceae5;
+}
+
+.theme_4 .icon:before
+{
+    content: "\e64d";
+}
+
+.theme_5
+{
+    background-color:#e7e7e7;
+}
+
+.theme_5 .symbol
+{
+    background-color:#cccccc;
+}
+
+.theme_5 .icon
+{
+    color:#e7e7e7;
+}
+
+.theme_5 .icon:before
+{
+    content: "\e648";
+}
+
+.theme_6
+{
+    background-color:#92c5d6;
+}
+
+.theme_6 .symbol
+{
+    background-color:#258bad;
+}
+
+.theme_6 .icon
+{
+    color:#92c5d6;
+}
+
+.theme_6 .icon:before
+{
+    content: "\e609";
+}
+
+.theme_7
+{
+    background-color:#e6d4c6;
+}
+
+.theme_7 .symbol
+{
+    background-color:#cda98d;
+}
+
+.theme_7 .icon
+{
+    color:#e6d4c6;
+}
+
+.theme_7 .icon:before
+{
+    content: "\e61a";
+}
+
+
+.theme_8
+{
+    background-color:#ffb79a;
+}
+
+.theme_8 .symbol
+{
+    background-color:#ff8c5d;
+}
+
+.theme_8 .icon
+{
+    color:#ffb79a;
+}
+
+.theme_8 .icon:before
+{
+    content: "\e635";
+}
