@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="robots" content="index,follow">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui">
+
+  <link rel="shortcut icon" href="favicon.png" id="favicon">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/themes.css">
+
+  <title></title>
+
+</head>
+<body>
+        
+	<header id="header"></header>
+	<main id="main"></main>
+	<footer id="footer"></footer>
+
+	<script id="title_template" type="text/template">
+		<%= name %>
+	</script>
+
+	<script id="header_template" type="text/template">
+		<div class="left">
+			<p><%= name %></p>
+		</div>
+
+		<div class="right">
+			<a href="<%= link %>" target="_blank"><img src="assets/img/logo_github.png" width="75" height="20" alt="GitHub"></a>
+		</div>
+	</script>
+
+	<script id="footer_template" type="text/template">
+		<div class="left">
+				<p>
+				Copyright &copy; <%= year %> by <%= name %>. All rights reserved. Icons by <a href="https://dribbble.com/GraphicDelivery" target="_blank">Vlad Cristea</a>.
+		</p>
+		</div>
+
+		<div class="right">
+				<p>
+				Made by <a href="<%= company_link %>" target="_blank"><%= company %></a>.
+		</p>
+		</div>
+	</script>
+
+	<script id="repo_template" type="text/template">
+		<div class="repo <%= theme_class %>">
+
+			<a href="<%= link %>" target="_blank">
+
+				<div class="symbol">
+					<div class="icon"></div>
+				</div>
+
+				<div class="description">
+					<p>
+						<strong><%= name %></strong>&nbsp; <%= description %>
+					</p>
+				</div>
+
+				<div class="meta">
+					<ul>
+						<li class="last_commit"><%= updated %></li>
+						<li class="stargazers"><%= stars %></li>
+					</ul>
+					<hr class="clear"><!-- @clear -->
+				</div>
+
+			</a>
+
+		</div>
+	</script>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/underscore/underscore.js"></script>
+	<script src="bower_components/ago/ago.min.js"></script>
+	<script src="bower_components/circulate/circulate.js"></script>
+	<script src="bower_components/ago/en.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="//use.typekit.net/cdz8tag.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+</body>
+</html>
