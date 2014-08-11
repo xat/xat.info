@@ -1,6 +1,7 @@
 !function($) {
 
-  var GITHUB_API = 'https://api.github.com/users/xat';
+  var GITHUB_API = 'https://api.github.com/users/' +
+    (window.location.hash ? window.location.hash.substr(1) : 'xat');
 
   var $title = $('title');
   var $main = $('#main');
